@@ -1,6 +1,5 @@
 "use client";
 import { SAMPLE_IMAGES } from "@/utils/constants";
-import Image from "next/image";
 import { useEffect, useState } from "react";
 import StackGrid from "react-stack-grid";
 
@@ -15,7 +14,7 @@ export default function Gallery() {
         // This updates the grid layout
         // to show the images correctly
         // once they are fully loaded.
-        // photoGrid.updateLayout();
+        photoGrid.updateLayout();
       }
       // tweak the time as needed
     }, 1000);
@@ -39,11 +38,11 @@ export default function Gallery() {
             justifyContent: "center",
           }}
         >
-          <Image
+          <img
             src={src}
             alt={`Gallery Image ${index}`}
-            width={200}
-            height={300}
+            width={220}
+            height={"auto"}
             onClick={() => {
               console.log("Image has been clicked");
             }}

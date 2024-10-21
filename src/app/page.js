@@ -23,7 +23,7 @@ export default function Home() {
       </div>
       <div
         style={{
-          width: "60%",
+          width: "70%",
           alignSelf: "center",
           justifyContent: "center",
           alignItems: "center",
