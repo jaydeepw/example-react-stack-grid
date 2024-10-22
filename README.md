@@ -2,4 +2,4 @@
 
 # Demo
 
-[![Watch the video](https://github.com/jaydeepw/example-react-stack-grid/blob/main/media/screenshot.png?raw=true){:target="_blank"}](https://youtu.be/Qs8zKTzuyCw))
+[![Watch the video{:target="_blank"}](https://github.com/jaydeepw/example-react-stack-grid/blob/main/media/screenshot.png?raw=true)](https://youtu.be/Qs8zKTzuyCw))
