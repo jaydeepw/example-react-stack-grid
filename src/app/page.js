@@ -10,7 +10,6 @@ export default function Home() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          opacity: 0.5,
         }}
       >
         <div
@@ -70,17 +69,6 @@ export default function Home() {
           <Gallery />
         </div>
       </div>
-      <img
-        style={{
-          position: "absolute",
-          top: "40%",
-          left: "43%",
-          zIndex: 2,
-        }}
-        width={"200px"}
-        height={"200px"}
-        src="https://github.com/jaydeepw/example-react-stack-grid/blob/main/media/play.png?raw=true"
-      />
     </>
   );
 }
