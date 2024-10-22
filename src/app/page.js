@@ -51,7 +51,9 @@ export default function Home() {
                 style={{
                   color: "lightpink",
                 }}
-                href={"https://google.com"}
+                href={
+                  "https://toofancoder.com/blog/masory-grid-layout-using-react-static-grid-with-nextjs"
+                }
               >
                 Visit Blog
               </Link>

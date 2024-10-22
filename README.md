@@ -8,3 +8,8 @@
 [Play Demo Video](https://youtu.be/Qs8zKTzuyCw)
 
 [![Watch the video](https://github.com/jaydeepw/example-react-stack-grid/blob/main/media/screenshot.png?raw=true)](https://youtu.be/Qs8zKTzuyCw)
+
+# Using version as below
+- NextJS - `14.2.15`
+- ReactJS - `18.0.0`
+- react-stack-grid - `^0.7.1`
