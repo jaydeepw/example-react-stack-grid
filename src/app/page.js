@@ -3,69 +3,72 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div
-      style={{
-        padding: "10px",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-      }}
-    >
+    <>
       <div
         style={{
-          width: "100%",
-          textAlign: "center",
-          marginTop: "34px",
-          marginBottom: "34px",
+          padding: "10px",
+          display: "flex",
+          flexDirection: "column",
           justifyContent: "center",
+          opacity: 0.5,
         }}
       >
-        <h1
+        <div
           style={{
-            fontSize: "120px",
+            width: "100%",
+            textAlign: "center",
+            marginTop: "34px",
+            marginBottom: "34px",
+            justifyContent: "center",
           }}
         >
-          Masonry Style Grid
-        </h1>
-        <div>
           <h1
             style={{
-              marginTop: "34px",
+              fontSize: "120px",
             }}
           >
-            With{" "}
-            <span
-              style={{
-                background:
-                  "linear-gradient(135deg, #ff6b6b, #fbc531, #4cd137, #00a8ff, #9c88ff)",
-                webkitBackgroundClip: "text",
-                backgroundClip: "text",
-                color: "transparent",
-              }}
-            >
-              React Stack Grid
-            </span>
-            &nbsp;|&nbsp;
-            <Link
-              style={{
-                color: "lightpink",
-              }}
-              href={"https://google.com"}
-            >
-              Visit Blog
-            </Link>
+            Masonry Style Grid
           </h1>
+          <div>
+            <h1
+              style={{
+                marginTop: "34px",
+              }}
+            >
+              With{" "}
+              <span
+                style={{
+                  background:
+                    "linear-gradient(135deg, #ff6b6b, #fbc531, #4cd137, #00a8ff, #9c88ff)",
+                  webkitBackgroundClip: "text",
+                  backgroundClip: "text",
+                  color: "transparent",
+                }}
+              >
+                React Stack Grid
+              </span>
+              &nbsp;|&nbsp;
+              <Link
+                style={{
+                  color: "lightpink",
+                }}
+                href={"https://google.com"}
+              >
+                Visit Blog
+              </Link>
+            </h1>
+          </div>
         </div>
-      </div>
-      <div
-        style={{
-          width: "80%",
-          alignSelf: "center",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <Gallery />
+        <div
+          style={{
+            width: "80%",
+            alignSelf: "center",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Gallery />
+        </div>
       </div>
       <img
         style={{
@@ -76,8 +79,8 @@ export default function Home() {
         }}
         width={"200px"}
         height={"200px"}
-        src="https://as1.ftcdn.net/v2/jpg/00/80/56/28/1000_F_80562883_PAJJNiVcccBaPnU1ee1vNredJ5mJkYyz.jpg"
+        src="https://github.com/jaydeepw/example-react-stack-grid/blob/main/media/play.png?raw=true"
       />
-    </div>
+    </>
   );
 }
