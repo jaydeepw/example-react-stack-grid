@@ -24,7 +24,7 @@ export default function Gallery() {
 
   return (
     <StackGrid
-      columnWidth="25%"
+      columnWidth="23%"
       duration={0}
       gutterHeight={16}
       gutterWidth={16}
@@ -41,7 +41,7 @@ export default function Gallery() {
           <img
             src={src}
             alt={`Gallery Image ${index}`}
-            width={220}
+            width={240}
             height={"auto"}
             onClick={() => {
               console.log("Image has been clicked");

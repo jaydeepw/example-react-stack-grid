@@ -1,1 +1,3 @@
-# example-react-stack-grid
+# Implementing a masonry layout using `react-stack-grid`
+
+# Demo
