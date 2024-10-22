@@ -67,6 +67,17 @@ export default function Home() {
       >
         <Gallery />
       </div>
+      <img
+        style={{
+          position: "absolute",
+          top: "40%",
+          left: "43%",
+          zIndex: 2,
+        }}
+        width={"200px"}
+        height={"200px"}
+        src="https://as1.ftcdn.net/v2/jpg/00/80/56/28/1000_F_80562883_PAJJNiVcccBaPnU1ee1vNredJ5mJkYyz.jpg"
+      />
     </div>
   );
 }
