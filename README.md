@@ -1,7 +1,7 @@
 # Implementing a masonry layout using `react-stack-grid`
 
 ## Related Blog
-[Using react-stack-grid with NextJS to implement masory grid layout](http://localhost:3001/blog/using-react-static-grid-with-nextjs)
+[Using react-stack-grid with NextJS to implement masory grid layout](https://toofancoder.com/blog/masory-grid-layout-using-react-static-grid-with-nextjs?utm_source=github)
 
 ## Demo
 

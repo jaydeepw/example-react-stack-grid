@@ -1,4 +1,5 @@
 import Gallery from "@/components/Gallery";
+import { BLOG_LINK } from "@/utils/constants";
 import Link from "next/link";
 
 export default function Home() {
@@ -51,9 +52,8 @@ export default function Home() {
                 style={{
                   color: "lightpink",
                 }}
-                href={
-                  "https://toofancoder.com/blog/masory-grid-layout-using-react-static-grid-with-nextjs"
-                }
+                target="_blank"
+                href={BLOG_LINK}
               >
                 Visit Blog
               </Link>

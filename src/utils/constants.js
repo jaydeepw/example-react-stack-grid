@@ -1,3 +1,5 @@
+export const BLOG_LINK =
+  "https://toofancoder.com/blog/masory-grid-layout-using-react-static-grid-with-nextjs?utm_source=github_sample";
 export const SAMPLE_IMAGES = [
   "https://images.unsplash.com/photo-1729432535925-99da7bd2e2be?q=80&w=2450&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "https://images.unsplash.com/photo-1729494130269-c5610ddbd300?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
