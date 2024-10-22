@@ -5,8 +5,6 @@
 
 # Demo
 
-[Hello, world!](http://example.com/){target="_blank"}
-
 [Play Demo Video](https://youtu.be/Qs8zKTzuyCw)
 
 [![Watch the video](https://github.com/jaydeepw/example-react-stack-grid/blob/main/media/screenshot.png?raw=true)](https://youtu.be/Qs8zKTzuyCw)
