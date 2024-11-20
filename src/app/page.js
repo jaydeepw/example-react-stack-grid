@@ -40,7 +40,7 @@ export default function Home() {
                 style={{
                   background:
                     "linear-gradient(135deg, #ff6b6b, #fbc531, #4cd137, #00a8ff, #9c88ff)",
-                  webkitBackgroundClip: "text",
+                  WebkitBackgroundClip: "text",
                   backgroundClip: "text",
                   color: "transparent",
                 }}
