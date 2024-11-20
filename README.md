@@ -7,6 +7,9 @@
 
 [Play Demo Video](https://youtu.be/Qs8zKTzuyCw)
 
+[![Watch the video](https://github.com/jaydeepw/example-react-stack-grid/blob/main/media/demo.gif?raw=true)](https://youtu.be/Qs8zKTzuyCw)
+
+
 [![Watch the video](https://github.com/jaydeepw/example-react-stack-grid/blob/main/media/screenshot.png?raw=true)](https://youtu.be/Qs8zKTzuyCw)
 
 # Using version as below
